@@ -1,0 +1,14 @@
+{
+  "name": "hint",
+  "repo": "formwatcher/hint",
+  "description": "Beautiful input field hints.",
+  "version": "2.1.10-dev",
+  "keywords": [ "form", "formwatcher", "hint", "unobtrusive" ],
+  "dependencies": {
+    "formwatcher/formwatcher": "*"
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}
