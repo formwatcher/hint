@@ -3,7 +3,7 @@
   "version": "2.1.10-dev",
   "description": "Cross browser beautiful hints",
   "homepage": "http://www.formwatcher.org",
-  "keywords": [ "form", "formwatcher", "hint", "unobtrusive", "ender" ],
+  "keywords": [ "form", "formwatcher", "hint", "unobtrusive" ],
   "maintainers": [
     {
       "name": "Matias Meno",

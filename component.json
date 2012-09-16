@@ -5,10 +5,11 @@
   "version": "2.1.10-dev",
   "keywords": [ "form", "formwatcher", "hint", "unobtrusive" ],
   "dependencies": {
-    "formwatcher/formwatcher": "*"
+    "formwatcher/formwatcher": "*",
+    "formwatcher/bonzo": "*",
+    "formwatcher/bean": "*"
   },
   "development": {},
-  "scripts": [
-    "index.js"
-  ]
+  "scripts": [ "index.js" ],
+  "styles": [ "hint.css" ]
 }

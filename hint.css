@@ -1,0 +1,17 @@
+.formwatcher-hint-container {
+  position: relative;
+  display: inline-block;
+}
+
+.formwatcher-hint {
+  position: absolute;
+  opacity: 1;
+
+  -webkit-transition: opacity 0.1s ease-in-out;  /* Safari 3.2+, Chrome */
+     -moz-transition: opacity 0.1s ease-in-out;  /* Firefox 4-15 */
+       -o-transition: opacity 0.1s ease-in-out;  /* Opera 10.5–12.00 */
+          transition: opacity 0.1s ease-in-out;  /* Firefox 16+, Opera 12.50+ */  
+}
+.formwatcher-hint.ghosted {
+  opacity: 0.4;
+}
