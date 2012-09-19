@@ -47,7 +47,7 @@
     };
 
     _Class.prototype.decorate = function(input) {
-      var $hintElement, $input, $wrapper, boxSizing, changeFunction, deferredChangeFunction, delayChangeFunction, elements, fadeLength, hint, hintElement, inputOffset, label, leftPosition, nextTimeout, topPosition, wrapper;
+      var $hintElement, $input, $wrapper, changeFunction, deferredChangeFunction, delayChangeFunction, elements, fadeLength, hint, hintElement, inputOffset, label, leftPosition, nextTimeout, topPosition, wrapper;
       elements = {
         input: input
       };
@@ -81,16 +81,11 @@
         width: input.offsetWidth,
         height: input.offsetHeight
       };
-      boxSizing = $input.css("boxSizing");
       leftPosition = decParseInt($input.css("paddingLeft")) + decParseInt(inputOffset.left) + 2;
-      if (boxSizing !== "border-box") {
-        leftPosition += decParseInt($input.css("borderLeftWidth"));
-      }
+      leftPosition += decParseInt($input.css("borderLeftWidth"));
       leftPosition += "px";
       topPosition = decParseInt($input.css("paddingTop")) + decParseInt(inputOffset.top);
-      if (boxSizing !== "border-box") {
-        topPosition += decParseInt($input.css("borderTopWidth"));
-      }
+      topPosition += decParseInt($input.css("borderTopWidth"));
       topPosition += "px";
       hintElement = bonzo.create("<span />")[0];
       $hintElement = bonzo(hintElement);

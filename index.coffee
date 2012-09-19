@@ -69,14 +69,12 @@ Formwatcher.decorators.push class extends Formwatcher.Decorator
       width: input.offsetWidth
       height: input.offsetHeight
 
-    boxSizing = $input.css "boxSizing"
-
     leftPosition = decParseInt($input.css("paddingLeft")) + decParseInt(inputOffset.left) + 2 # + 2 so the cursor is not over the text
-    leftPosition += decParseInt($input.css("borderLeftWidth")) if boxSizing != "border-box"
+    leftPosition += decParseInt($input.css("borderLeftWidth"))
     leftPosition += "px"
 
     topPosition = decParseInt($input.css("paddingTop")) + decParseInt(inputOffset.top)
-    topPosition += decParseInt($input.css("borderTopWidth")) if boxSizing != "border-box"
+    topPosition += decParseInt($input.css("borderTopWidth"))
     topPosition += "px"
 
     hintElement = bonzo.create("<span />")[0]
