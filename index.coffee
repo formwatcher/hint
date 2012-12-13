@@ -4,6 +4,8 @@
 # This decorator puts a text over a label that fades out when the user selects the label, or edits the text.
 
 
+Formwatcher = require "formwatcher"
+
 # qwery = require "qwery"
 bonzo = require "bonzo"
 bean = require "bean"
