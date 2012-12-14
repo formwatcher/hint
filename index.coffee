@@ -13,7 +13,7 @@ bean = require "bean"
 
 decParseInt = (number) -> parseInt number, 10
 
-Formwatcher.addDecorator class extends Formwatcher.Decorator
+Formwatcher.registerDecorator class extends Formwatcher.Decorator
 
   name: "Hint"
   description: "Displays a hint in an input field."
