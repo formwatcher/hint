@@ -14,7 +14,7 @@
     return parseInt(number, 10);
   };
 
-  Formwatcher.decorators.push((function(_super) {
+  Formwatcher.addDecorator((function(_super) {
 
     __extends(_Class, _super);
 
