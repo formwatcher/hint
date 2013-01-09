@@ -2,7 +2,7 @@
   "name": "hint",
   "repo": "formwatcher/hint",
   "description": "Beautiful input field hints.",
-  "version": "0.0.2-dev",
+  "version": "0.0.2",
   "keywords": [ "form", "formwatcher", "hint", "unobtrusive" ],
   "dependencies": {
     "formwatcher/formwatcher": "*",
