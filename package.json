@@ -1,6 +1,6 @@
 {
   "name": "formwatcher-hint",
-  "version": "0.0.2",
+  "version": "0.0.3-dev",
   "description": "Cross browser beautiful hints",
   "homepage": "http://www.formwatcher.org",
   "keywords": [ "form", "formwatcher", "hint", "unobtrusive" ],
